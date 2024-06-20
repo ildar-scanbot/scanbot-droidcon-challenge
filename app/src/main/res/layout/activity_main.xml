@@ -8,13 +8,19 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/scanbot_sdk"
+        app:tint="?colorPrimary" />
 
     <TextView
         android:id="@+id/title"
-        android:textAppearance="?textAppearanceHeadline5"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Scanbot SDK Challenge"
+        android:gravity="center"
+        android:text="Integration Challenge"
+        android:textAppearance="?textAppearanceHeadline5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
