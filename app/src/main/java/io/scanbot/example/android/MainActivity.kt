@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
             // TODO: Implement call to RTU UI screen here
 
         }
+
+        // TODO: Use this text view to display the scanned barcode value
         resultTextView = findViewById(R.id.result_text_view)
 
         // This TextView will be used to display the result of the scan
